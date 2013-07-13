@@ -9,11 +9,16 @@ html,
 body {
   font-size: 100%; }
 
+  @font-face {
+  font-family: exo-medium;
+  src: url('Exo-Medium.otf');
+  }
+
 body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica-Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
