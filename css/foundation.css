@@ -9,16 +9,11 @@ html,
 body {
   font-size: 100%; }
 
-  @font-face {
-  font-family: exo-medium;
-  src: url('Exo-Medium.otf');
-  }
-
 body {
-  color: #222222;
+  color: #EBEBEB;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica-Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1083,10 +1078,10 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Alef', sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #EBEBEB;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -1190,7 +1185,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #EBEBEB;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -1343,7 +1338,7 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #7a7a7a;
+  background-color: #828282;
   border-color: #616161;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -1835,11 +1830,11 @@ form.custom .custom {
     height: 8px;
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
-    background: #222222;
+    background: #EBEBEB;
     position: relative; }
   form.custom .custom.checkbox.checked:before {
     content: "\00d7";
-    color: #222222;
+    color: #EBEBEB;
     position: absolute;
     top: -50%;
     left: 50%;
@@ -1907,7 +1902,7 @@ form.custom {
       width: 0;
       height: 0;
       border: inset 5px;
-      border-color: #222222 transparent transparent transparent;
+      border-color: #EBEBEB transparent transparent transparent;
       border-top-style: solid; }
     form.custom .custom.dropdown .disabled {
       color: #888888; }
@@ -2737,7 +2732,7 @@ form.custom {
     width: 100%;
     height: auto;
     display: block;
-    background: #222222;
+    background: #EBEBEB;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -2755,7 +2750,7 @@ form.custom {
     padding-left: 15px;
     font-size: 0.8125em;
     font-weight: bold;
-    background: #222222; }
+    background: #EBEBEB; }
     .top-bar-section ul li > a.button {
       background: #7a7a7a;
       font-size: 0.8125em; }
@@ -3144,11 +3139,11 @@ form.custom {
     background: #999999;
     float: left;
     margin-right: 6px;
-    border: solid 2px #222222;
+    border: solid 2px #EBEBEB;
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     .orbit-bullets li.active {
-      background: #222222; }
+      background: #EBEBEB; }
     .orbit-bullets li:last-child {
       margin-right: 0; }
 
@@ -3640,7 +3635,7 @@ form.custom {
 kbd {
   background-color: #ededed;
   border-color: #dbdbdb;
-  color: #222222;
+  color: #EBEBEB;
   border-style: solid;
   border-width: 1px;
   margin: 0;
@@ -3702,7 +3697,7 @@ ul.pagination {
   margin-left: -0.3125em; }
   ul.pagination li {
     height: 1.5em;
-    color: #222222;
+    color: #EBEBEB;
     font-size: 0.875em;
     margin-left: 0.3125em; }
     ul.pagination li a {
@@ -4096,13 +4091,13 @@ table {
     table tfoot tr td {
       padding: 0.5em 0.625em 0.625em;
       font-size: 0.875em;
-      color: #222222;
+      color: #EBEBEB;
       text-align: left; }
   table tr th,
   table tr td {
     padding: 0.5625em 0.625em;
     font-size: 0.875em;
-    color: #222222; }
+    color: #EBEBEB; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #f9f9f9; }
   table thead tr th,
